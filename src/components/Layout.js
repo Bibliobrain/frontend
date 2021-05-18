@@ -1,21 +1,21 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import styled from 'styled-components'
 
 export const Layout = (props) => {
 
   const PageContainer = styled.div`
-  height: calc(100vh - 80px);
+  height: 100%;
   width: 100%;
   display: flex;
+  padding:5rem;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   `;
-
   return (
-    <PageContainer>
-      {props.children}
-    </PageContainer>
+    <>
+      <PageContainer>
+        {props.children}
+      </PageContainer>
+    </>
   )
 }
