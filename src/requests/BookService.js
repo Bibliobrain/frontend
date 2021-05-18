@@ -1,9 +1,10 @@
 import request from './Request';
 
 const BookService = {
-    filter: (pageNumber, language, binding) => {
+    filter: (params) => {
         return request({
-            url: `/api/books?pageNumber=${pageNumber}&language=${language}&bindingType=${binding}`,
+            url: `/books`,
+            params:params,
             method: 'GET',
         })
     }

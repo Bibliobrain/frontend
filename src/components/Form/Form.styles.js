@@ -42,7 +42,7 @@ export const Input = styled.input`
 	border: none;
 	border-radius: 3px;
 	width: 100%;
-	margin-bottom: 0.5em;
+	/* margin-bottom: 0.5em; */
 `;
 
 export const Button = styled.button`

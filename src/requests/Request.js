@@ -4,7 +4,7 @@ const request = async function (options, isHeader = true) {
 
     let authHeader = null;
     if (isHeader) {
-        authHeader = window.localStorage.getItem('token');
+        authHeader = JSON.parse(localStorage.getItem('userData'));
     }
 
     // const url = 'http://bibliobrain.herokuapp.com'
@@ -12,7 +12,7 @@ const request = async function (options, isHeader = true) {
 
     const client = axios.create({
         baseURL: url,
-        headers: { 'Authorization': "Bearer " + authHeader }
+        headers: { 'Authorization': "Bearer " + authHeader.token }
     });
 
     const onSuccess = function (response) {
