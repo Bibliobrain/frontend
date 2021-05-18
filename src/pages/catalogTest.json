@@ -1,0 +1,818 @@
+{
+    "errors": [],
+    "message": "Ok",
+    "payload": {
+      "data": [
+        {
+          "isbn": "000-0-13-587377-4",
+          "title": "accusamus nulla inventore",
+          "description": "Et corporis autem quis consequuntur aut sint id reiciendis. Vel reprehenderit esse. Consequuntur nulla fugit a maxime assumenda et minima at maxime. Nobis molestiae eos repudiandae rem sit natus voluptates qui. Est quia autem. Error natus possimus.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Softcover",
+          "itemId": 4547,
+          "subject": "Health &amp; Fitness",
+          "author": "Santino Sporer",
+          "authors": [
+            "Santino Sporer"
+          ],
+          "subjects": [
+            "Health &amp; Fitness"
+          ]
+        },
+        {
+          "isbn": "000-0-23-105135-9",
+          "title": "voluptatum et beatae",
+          "description": "Fugiat unde et et iure blanditiis quos sed. Enim enim cum enim quo. Fuga sit iusto amet nostrum in. Quaerat enim illo veritatis doloremque ex possimus.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 39609,
+          "subject": "Cultural/Social Issues",
+          "author": "Jarrell Morissette",
+          "authors": [
+            "Jarrell Morissette"
+          ],
+          "subjects": [
+            "Cultural/Social Issues"
+          ]
+        },
+        {
+          "isbn": "000-0-28-772153-9",
+          "title": "illum incidunt quidem",
+          "description": "Quia quisquam aut aliquid illo. Rerum quia et magnam amet.",
+          "edition": "Fourth edition",
+          "language": "spanish",
+          "bindingType": "Hardcover",
+          "itemId": 23476,
+          "subject": "Comic book",
+          "author": "Raymond Fay",
+          "authors": [
+            "Raymond Fay"
+          ],
+          "subjects": [
+            "Comic book"
+          ]
+        },
+        {
+          "isbn": "000-0-32-862435-1",
+          "title": "dolore et est",
+          "description": "Veniam totam ipsa nostrum aliquam inventore officia. Reprehenderit et impedit aut similique. Quis ratione sint impedit qui aspernatur animi sit deleniti. Consequatur quia nihil sunt soluta corporis. Ut inventore veniam sed eveniet rem rerum reprehenderit ea.",
+          "edition": "First edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 74140,
+          "subject": "Picture Book",
+          "author": "Delmer Stracke",
+          "authors": [
+            "Delmer Stracke"
+          ],
+          "subjects": [
+            "Picture Book"
+          ]
+        },
+        {
+          "isbn": "000-0-40-445336-5",
+          "title": "ut dolor quod",
+          "description": "Harum odit animi totam iste. Totam consequuntur consequuntur enim quia molestiae nihil. Occaecati voluptatem velit aut vel repellendus aperiam facilis.",
+          "edition": "Third edition",
+          "language": "chinese",
+          "bindingType": "Spiral Binding",
+          "itemId": 23761,
+          "subject": "Historical fiction",
+          "author": "Kameron Sauer",
+          "authors": [
+            "Kameron Sauer"
+          ],
+          "subjects": [
+            "Historical fiction"
+          ]
+        },
+        {
+          "isbn": "000-0-51-054253-3",
+          "title": "tempora reiciendis ab",
+          "description": "Aut natus porro aut possimus et. In laborum qui nulla officiis saepe quis.",
+          "edition": "First edition",
+          "language": "english",
+          "bindingType": "Wire Binding",
+          "itemId": 31262,
+          "subject": "Historical",
+          "author": "Dannie Wuckert",
+          "authors": [
+            "Dannie Wuckert"
+          ],
+          "subjects": [
+            "Historical"
+          ]
+        },
+        {
+          "isbn": "000-0-56-373465-1",
+          "title": "excepturi labore delectus",
+          "description": "Quo reiciendis ut sunt dolores nihil est. Tenetur ea quo quisquam quo ut.",
+          "edition": "Fourth edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 93736,
+          "subject": "Self-help",
+          "author": "Jolie Ferry",
+          "authors": [
+            "Jolie Ferry"
+          ],
+          "subjects": [
+            "Self-help"
+          ]
+        },
+        {
+          "isbn": "000-0-69-836401-9",
+          "title": "consequatur sed voluptatibus",
+          "description": "Rerum est voluptatum iure qui impedit et nostrum quae. In fuga ipsam fuga alias nemo repellat soluta. In iusto velit consequatur.",
+          "edition": "First edition",
+          "language": "spanish",
+          "bindingType": "Hardcover",
+          "itemId": 53888,
+          "subject": "Literary Fiction",
+          "author": "Abraham Carroll",
+          "authors": [
+            "Abraham Carroll"
+          ],
+          "subjects": [
+            "Literary Fiction"
+          ]
+        },
+        {
+          "isbn": "000-0-72-287783-4",
+          "title": "quia odio odit",
+          "description": "Sapiente consequatur quis et nulla tempore neque ea architecto animi. Officiis adipisci harum.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Spiral Binding",
+          "itemId": 78343,
+          "subject": "Thrillers/Suspense",
+          "author": "Braden Kessler",
+          "authors": [
+            "Braden Kessler"
+          ],
+          "subjects": [
+            "Thrillers/Suspense"
+          ]
+        },
+        {
+          "isbn": "000-0-81-308665-7",
+          "title": "officiis fuga autem",
+          "description": "Rerum nesciunt voluptatem excepturi repellendus ut repudiandae earum nostrum. Porro eum odit inventore. Rerum amet dolor. Architecto iure rem laboriosam.",
+          "edition": "First edition",
+          "language": "spanish",
+          "bindingType": "Spiral Binding",
+          "itemId": 40008,
+          "subject": "Middle Grade",
+          "author": "Savion Murazik",
+          "authors": [
+            "Savion Murazik"
+          ],
+          "subjects": [
+            "Middle Grade"
+          ]
+        },
+        {
+          "isbn": "000-0-98-699330-8",
+          "title": "non voluptas totam",
+          "description": "Dolorum quia in ab doloribus aspernatur. Aliquid voluptas soluta. Et illo eveniet sunt explicabo eligendi et omnis quod. Sit quos id omnis aliquid dolorem. Quis at fugiat sunt. Ullam eius consequatur aut.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 83777,
+          "subject": "Memoir",
+          "author": "Junior Hansen",
+          "authors": [
+            "Junior Hansen"
+          ],
+          "subjects": [
+            "Memoir"
+          ]
+        },
+        {
+          "isbn": "000-1-03-082282-1",
+          "title": "corporis laboriosam numquam",
+          "description": "Quo iste optio nemo optio praesentium ipsa corrupti. Itaque autem quaerat. Corrupti et et magni voluptatem sed aut. Dolorum quia et itaque.",
+          "edition": "First edition",
+          "language": "chinese",
+          "bindingType": "Binding",
+          "itemId": 31826,
+          "subject": "Business/Finance",
+          "author": "Elliott Hauck",
+          "authors": [
+            "Elliott Hauck"
+          ],
+          "subjects": [
+            "Business/Finance"
+          ]
+        },
+        {
+          "isbn": "000-1-03-526012-4",
+          "title": "quia molestias est",
+          "description": "Nihil ut aut sint. Et quibusdam qui aliquid quibusdam vitae et alias. Libero voluptatibus quia possimus vel. Est et delectus blanditiis. Ut eos consectetur nostrum dolorum. Sed reprehenderit possimus laboriosam ut qui saepe vero.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 96874,
+          "subject": "Children’s",
+          "author": "Constantin Lang",
+          "authors": [
+            "Constantin Lang"
+          ],
+          "subjects": [
+            "Children’s"
+          ]
+        },
+        {
+          "isbn": "000-1-13-273755-6",
+          "title": "facere tempore quia",
+          "description": "Ut laborum facere aut. Quia reiciendis harum delectus voluptatem excepturi omnis molestias. Et nihil at porro ullam eligendi cum blanditiis. Aut eligendi et non ad labore cumque. Veritatis consequatur at pariatur enim repellendus. Facere omnis nesciunt asperiores non magnam laudantium corrupti sed occaecati.",
+          "edition": "First edition",
+          "language": "english",
+          "bindingType": "Wire Binding",
+          "itemId": 20025,
+          "subject": "Sports and leisure",
+          "author": "Nick Osinski",
+          "authors": [
+            "Nick Osinski"
+          ],
+          "subjects": [
+            "Sports and leisure"
+          ]
+        },
+        {
+          "isbn": "000-1-48-575803-3",
+          "title": "similique quaerat architecto",
+          "description": "Impedit aliquid nulla. Error minima dolorem autem. Sed et minima error. Qui optio deleniti est saepe eum facilis ducimus nam est. Debitis et repellendus tenetur ab incidunt quos dicta. Aliquid commodi deserunt non tempore.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 71667,
+          "subject": "Health &amp; Fitness",
+          "author": "Keven Gerhold",
+          "authors": [
+            "Keven Gerhold"
+          ],
+          "subjects": [
+            "Health &amp; Fitness"
+          ]
+        },
+        {
+          "isbn": "000-1-59-954553-4",
+          "title": "ut qui quia",
+          "description": "Dicta tempora quia animi minus aliquam aliquid quo. Consectetur minus delectus voluptas ad expedita repellat.",
+          "edition": "Fourth edition",
+          "language": "chinese",
+          "bindingType": "Hardcover",
+          "itemId": 87979,
+          "subject": "Western",
+          "author": "Darrin Kling",
+          "authors": [
+            "Darrin Kling"
+          ],
+          "subjects": [
+            "Western"
+          ]
+        },
+        {
+          "isbn": "000-1-70-822286-9",
+          "title": "voluptas hic consequatur",
+          "description": "Omnis quis eos quis deleniti at. Culpa qui debitis commodi delectus. Ducimus ut excepturi quae quaerat nesciunt incidunt ad. Laboriosam voluptatum vel. Voluptatem et et. Praesentium porro voluptates ea in ad dolor hic.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 29788,
+          "subject": "Mystery",
+          "author": "Roman Wiegand",
+          "authors": [
+            "Roman Wiegand"
+          ],
+          "subjects": [
+            "Mystery"
+          ]
+        },
+        {
+          "isbn": "000-1-75-875795-8",
+          "title": "qui quasi vitae",
+          "description": "Non quod quibusdam pariatur et officia soluta fugiat. Ut ut velit quia eum eos quis.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 65436,
+          "subject": "Biography",
+          "author": "Karolis Piernikaris",
+          "authors": [
+            "Karolis Piernikaris",
+            "Rene Bernier"
+          ],
+          "subjects": [
+            "Biography",
+            "Fantasy"
+          ]
+        },
+        {
+          "isbn": "000-2-01-068140-2",
+          "title": "voluptatem commodi id",
+          "description": "Et quos eos eius laborum voluptas non id. Voluptate saepe ipsam inventore saepe consequatur possimus dolorem. Sapiente et velit est. Cupiditate itaque non eos et velit incidunt ratione repellendus.",
+          "edition": "Second edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 14656,
+          "subject": "Health &amp; Fitness",
+          "author": "Alaina Hickle",
+          "authors": [
+            "Alaina Hickle"
+          ],
+          "subjects": [
+            "Health &amp; Fitness"
+          ]
+        },
+        {
+          "isbn": "000-2-04-089807-9",
+          "title": "nihil pariatur mollitia",
+          "description": "Quisquam possimus et deserunt. Nobis totam temporibus. Possimus voluptatibus a sed culpa ratione iusto et. Culpa consectetur ducimus molestias ut. Aperiam sed ab veritatis repellendus. Et quas voluptatibus illo in voluptatibus asperiores et omnis.",
+          "edition": "First edition",
+          "language": "english",
+          "bindingType": "Softcover",
+          "itemId": 42547,
+          "subject": "Poetry",
+          "author": "Meagan Stanton",
+          "authors": [
+            "Meagan Stanton"
+          ],
+          "subjects": [
+            "Poetry"
+          ]
+        },
+        {
+          "isbn": "000-2-28-176296-3",
+          "title": "est voluptatibus et",
+          "description": "Voluptate autem voluptatem. Et voluptas provident natus possimus magni doloremque aliquid. Qui provident est in dolores sit. Labore rerum atque placeat iure voluptatem dicta.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 99089,
+          "subject": "Historical",
+          "author": "Misty Wunsch",
+          "authors": [
+            "Misty Wunsch"
+          ],
+          "subjects": [
+            "Historical"
+          ]
+        },
+        {
+          "isbn": "000-2-41-802239-4",
+          "title": "et dolores nostrum",
+          "description": "Explicabo dolorum fugit dolores alias. Pariatur amet sed aliquid porro dolorum iste labore nihil voluptas. Accusantium temporibus harum accusantium perferendis. Vel ut tenetur necessitatibus. Nam possimus molestiae veniam ut iure eos. Neque facere voluptas nemo voluptas aut eaque.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Hardcover",
+          "itemId": 60987,
+          "subject": "Religion/Spirituality",
+          "author": "Theodora Collier",
+          "authors": [
+            "Theodora Collier"
+          ],
+          "subjects": [
+            "Religion/Spirituality"
+          ]
+        },
+        {
+          "isbn": "000-2-51-313948-1",
+          "title": "voluptate praesentium sunt",
+          "description": "Dignissimos impedit sed sed. Qui dolores commodi id voluptas quas. Accusantium veritatis ex cumque delectus necessitatibus.",
+          "edition": "First edition",
+          "language": "chinese",
+          "bindingType": "Spiral Binding",
+          "itemId": 14302,
+          "subject": "Cookbook",
+          "author": "Hailey Koelpin",
+          "authors": [
+            "Hailey Koelpin"
+          ],
+          "subjects": [
+            "Cookbook"
+          ]
+        },
+        {
+          "isbn": "000-2-70-484173-2",
+          "title": "non saepe unde",
+          "description": "Rerum rerum odio et. Voluptatem explicabo dolor. Repellendus velit error mollitia nisi velit et. Perferendis mollitia deleniti. Voluptas dolores et sint reiciendis iure voluptatem.",
+          "edition": "First edition",
+          "language": "english",
+          "bindingType": "Wire Binding",
+          "itemId": 49619,
+          "subject": "Self-help",
+          "author": "Junius Toy",
+          "authors": [
+            "Junius Toy"
+          ],
+          "subjects": [
+            "Self-help"
+          ]
+        },
+        {
+          "isbn": "000-2-87-986208-9",
+          "title": "dicta eos corporis",
+          "description": "Qui similique impedit rem ex aut accusantium qui. Voluptate rerum vero et fuga laudantium laudantium aut. Ipsa qui dolorem consequatur qui quibusdam.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 35424,
+          "subject": "Children’s",
+          "author": "Ashleigh Stoltenberg",
+          "authors": [
+            "Ashleigh Stoltenberg"
+          ],
+          "subjects": [
+            "Children’s"
+          ]
+        },
+        {
+          "isbn": "000-2-94-900966-2",
+          "title": "nobis sapiente et",
+          "description": "Vel aliquid quas. Sequi molestiae sint nihil fugiat officia perspiciatis beatae omnis.",
+          "edition": "Third edition",
+          "language": "english",
+          "bindingType": "Wire Binding",
+          "itemId": 22572,
+          "subject": "Crafts/hobbies",
+          "author": "Marlene Willms",
+          "authors": [
+            "Marlene Willms"
+          ],
+          "subjects": [
+            "Crafts/hobbies"
+          ]
+        },
+        {
+          "isbn": "000-3-01-029076-6",
+          "title": "nihil rerum pariatur",
+          "description": "Corrupti occaecati est in qui voluptatem dolor quia vitae perferendis. Harum ut incidunt laudantium et. Maxime fuga eos mollitia voluptate quidem voluptatum. Quo eveniet ab in sit non iure non sit dolore.",
+          "edition": "Fourth edition",
+          "language": "spanish",
+          "bindingType": "Spiral Binding",
+          "itemId": 63000,
+          "subject": "Children’s",
+          "author": "Meagan West",
+          "authors": [
+            "Meagan West"
+          ],
+          "subjects": [
+            "Children’s"
+          ]
+        },
+        {
+          "isbn": "000-3-12-636564-2",
+          "title": "minus dolore corrupti",
+          "description": "Enim eligendi cupiditate. Neque exercitationem atque quisquam ut facere itaque repudiandae. Et qui eveniet molestias tenetur rerum voluptas consequatur temporibus autem. Nulla omnis ad provident fugiat quis itaque quidem et. Tempora voluptatem incidunt adipisci et beatae ratione reprehenderit.",
+          "edition": "Fourth edition",
+          "language": "english",
+          "bindingType": "Softcover",
+          "itemId": 84882,
+          "subject": "Young Adult",
+          "author": "Moses Franecki",
+          "authors": [
+            "Moses Franecki"
+          ],
+          "subjects": [
+            "Young Adult"
+          ]
+        },
+        {
+          "isbn": "000-3-17-478005-7",
+          "title": "repellendus libero distinctio",
+          "description": "Illo rerum quas qui dolorem. Quibusdam doloribus quia accusamus enim molestiae non praesentium dolore minus. Qui non qui velit assumenda repudiandae perferendis. Perspiciatis similique nemo rem aut accusamus corporis molestiae. Provident sunt ut et sint voluptatibus illum ipsam officiis quia.",
+          "edition": "Third edition",
+          "language": "chinese",
+          "bindingType": "Spiral Binding",
+          "itemId": 1583,
+          "subject": "Children’s",
+          "author": "Otis Ortiz",
+          "authors": [
+            "Otis Ortiz"
+          ],
+          "subjects": [
+            "Children’s"
+          ]
+        },
+        {
+          "isbn": "000-3-18-776514-4",
+          "title": "voluptatum labore illo",
+          "description": "Quas soluta saepe harum aut deleniti consequatur minus cum aliquam. Odio dolore consequuntur repellendus ad voluptatum nihil quo odio ut. Quasi enim quos error. Cupiditate sed laborum sint. Dolore quaerat deserunt explicabo non exercitationem consequatur deleniti qui. Ut deserunt quasi non enim minima occaecati blanditiis.",
+          "edition": "Fourth edition",
+          "language": "chinese",
+          "bindingType": "Softcover",
+          "itemId": 50006,
+          "subject": "Self-help",
+          "author": "Jarrod Fisher",
+          "authors": [
+            "Jarrod Fisher"
+          ],
+          "subjects": [
+            "Self-help"
+          ]
+        },
+        {
+          "isbn": "000-3-33-297583-7",
+          "title": "deleniti tempora iure",
+          "description": "Aliquid voluptatibus commodi id accusamus in rerum sed cupiditate cumque. Veritatis et ad tempore provident itaque laboriosam. Omnis voluptatem id natus accusantium. Est aut doloremque. Sit ex vero.",
+          "edition": "Fourth edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 43446,
+          "subject": "Poetry",
+          "author": "Jaydon Fahey",
+          "authors": [
+            "Jaydon Fahey"
+          ],
+          "subjects": [
+            "Poetry"
+          ]
+        },
+        {
+          "isbn": "000-3-61-610806-5",
+          "title": "praesentium eos enim",
+          "description": "Aut eum corporis doloribus et nihil esse maiores quo consectetur. Qui dolores aut vel voluptas a cupiditate. Qui rerum consequuntur doloremque facere aut maiores rerum similique. Voluptatem deleniti recusandae enim non natus temporibus quo. Harum in quas facere odit aut.",
+          "edition": "Third edition",
+          "language": "chinese",
+          "bindingType": "Hardcover",
+          "itemId": 31032,
+          "subject": "Religion/Spirituality",
+          "author": "Jairo Stoltenberg",
+          "authors": [
+            "Jairo Stoltenberg"
+          ],
+          "subjects": [
+            "Religion/Spirituality"
+          ]
+        },
+        {
+          "isbn": "000-3-75-688709-4",
+          "title": "similique iusto delectus",
+          "description": "Eos molestiae rem consequatur numquam quasi. Numquam accusantium optio aut sequi id aspernatur. Asperiores nulla qui aut adipisci ex rerum quam. Mollitia odit ad accusantium et. Enim ea fuga et consequatur et.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Wire Binding",
+          "itemId": 20198,
+          "subject": "Science Fiction",
+          "author": "Kenyon Kertzmann",
+          "authors": [
+            "Kenyon Kertzmann"
+          ],
+          "subjects": [
+            "Science Fiction"
+          ]
+        },
+        {
+          "isbn": "000-3-75-893278-3",
+          "title": "et aut laboriosam",
+          "description": "Repellendus fuga laudantium quia aut ut. Iure ex voluptatem perspiciatis cumque dicta repellat. Consectetur odio sint tenetur inventore odit dicta quia aut ea.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Wire Binding",
+          "itemId": 61860,
+          "subject": "Young Adult",
+          "author": "Susanna Altenwerth",
+          "authors": [
+            "Susanna Altenwerth"
+          ],
+          "subjects": [
+            "Young Adult"
+          ]
+        },
+        {
+          "isbn": "000-3-91-076561-8",
+          "title": "quibusdam sed perspiciatis",
+          "description": "Dolor quisquam ipsum dolorem omnis voluptate est velit sapiente magni. Consequuntur totam repellendus quis architecto aut repellat minus minima in. Est et qui ratione aspernatur dolores explicabo autem nostrum. Dicta consequuntur eveniet.",
+          "edition": "Second edition",
+          "language": "spanish",
+          "bindingType": "Spiral Binding",
+          "itemId": 28165,
+          "subject": "Narrative",
+          "author": "Pete Lind",
+          "authors": [
+            "Pete Lind"
+          ],
+          "subjects": [
+            "Narrative"
+          ]
+        },
+        {
+          "isbn": "000-3-94-234876-0",
+          "title": "harum eaque ut",
+          "description": "Ab vel unde libero excepturi. Enim iusto qui amet ducimus eos.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Binding",
+          "itemId": 32495,
+          "subject": "Comic book",
+          "author": "Lonny Batz",
+          "authors": [
+            "Lonny Batz"
+          ],
+          "subjects": [
+            "Comic book"
+          ]
+        },
+        {
+          "isbn": "000-4-06-592164-3",
+          "title": "ratione odio dolores",
+          "description": "Neque magni et. Cumque dolores minus. Dolor iusto nihil voluptatum. Exercitationem at ut culpa et sunt ut ipsa.",
+          "edition": "Fourth edition",
+          "language": "spanish",
+          "bindingType": "Hardcover",
+          "itemId": 71085,
+          "subject": "Short story",
+          "author": "Caleigh Kiehn",
+          "authors": [
+            "Caleigh Kiehn"
+          ],
+          "subjects": [
+            "Short story"
+          ]
+        },
+        {
+          "isbn": "000-4-26-813309-0",
+          "title": "quia vel in",
+          "description": "Ad hic mollitia minima nihil expedita et sequi iure. Dolor qui unde. Quisquam quis et dolores temporibus. Sed fuga dolores id aut quis eveniet et deserunt. Consequuntur qui dignissimos porro delectus libero qui et. Eum consequatur id.",
+          "edition": "Second edition",
+          "language": "spanish",
+          "bindingType": "Wire Binding",
+          "itemId": 70994,
+          "subject": "Cultural/Social Issues",
+          "author": "Chandler Hodkiewicz",
+          "authors": [
+            "Chandler Hodkiewicz"
+          ],
+          "subjects": [
+            "Cultural/Social Issues"
+          ]
+        },
+        {
+          "isbn": "000-4-44-969862-7",
+          "title": "similique officiis iste",
+          "description": "Ipsam voluptatem neque aspernatur natus cumque consectetur dolore non. Quaerat delectus assumenda non non nesciunt iure doloremque accusamus. Sit excepturi aliquam aut qui in delectus eos consequatur. Inventore possimus blanditiis iusto aliquid labore iure ullam voluptas. Velit eveniet iure ea vel omnis aut repellendus voluptatum itaque. Veritatis non enim qui aut dolorem aut commodi.",
+          "edition": "Second edition",
+          "language": "english",
+          "bindingType": "Softcover",
+          "itemId": 88412,
+          "subject": "Literary Fiction",
+          "author": "Keshaun Swaniawski",
+          "authors": [
+            "Keshaun Swaniawski"
+          ],
+          "subjects": [
+            "Literary Fiction"
+          ]
+        },
+        {
+          "isbn": "000-4-44-980589-9",
+          "title": "veritatis officiis quo",
+          "description": "Sit qui provident et laboriosam voluptatum rerum doloremque voluptates quos. Voluptatum eius hic est in quae. Et dolor sunt accusantium ut voluptas aut. Ipsa numquam non et natus qui sint eveniet at voluptas. Voluptas vitae nostrum vitae ex quod voluptates consequuntur aut sunt. Odit quia consequuntur voluptatem dolor ut et.",
+          "edition": "Fourth edition",
+          "language": "spanish",
+          "bindingType": "Spiral Binding",
+          "itemId": 28326,
+          "subject": "Self-help",
+          "author": "Angie Swaniawski",
+          "authors": [
+            "Angie Swaniawski"
+          ],
+          "subjects": [
+            "Self-help"
+          ]
+        },
+        {
+          "isbn": "000-5-11-300453-1",
+          "title": "voluptatibus atque explicabo",
+          "description": "Nobis commodi quia sunt. Occaecati a nobis voluptate.",
+          "edition": "Second edition",
+          "language": "chinese",
+          "bindingType": "Spiral Binding",
+          "itemId": 40895,
+          "subject": "Sports and leisure",
+          "author": "Wilmer Kuhic",
+          "authors": [
+            "Wilmer Kuhic"
+          ],
+          "subjects": [
+            "Sports and leisure"
+          ]
+        },
+        {
+          "isbn": "000-5-13-468237-3",
+          "title": "quaerat aut ipsam",
+          "description": "Quisquam est sit qui necessitatibus ipsum non. Et voluptates neque sunt eum assumenda voluptatem iste. Qui veniam vero veritatis tenetur provident vel quibusdam deleniti eaque. Eaque soluta sint. Quaerat facere sed eos iste unde tenetur et incidunt deserunt. Et perspiciatis amet dolores totam sapiente exercitationem dolores commodi corporis.",
+          "edition": "Fourth edition",
+          "language": "english",
+          "bindingType": "Hardcover",
+          "itemId": 54945,
+          "subject": "General Nonfiction",
+          "author": "Destany Brakus",
+          "authors": [
+            "Destany Brakus"
+          ],
+          "subjects": [
+            "General Nonfiction"
+          ]
+        },
+        {
+          "isbn": "000-5-29-324200-9",
+          "title": "delectus ut optio",
+          "description": "Exercitationem amet voluptas autem rem dignissimos quia laudantium. Vero sit nisi. Ducimus autem et. Qui maxime fugiat deleniti qui ad. Animi vel error voluptas et veniam molestiae.",
+          "edition": "First edition",
+          "language": "chinese",
+          "bindingType": "Binding",
+          "itemId": 91276,
+          "subject": "Children’s",
+          "author": "Virginie Lind",
+          "authors": [
+            "Virginie Lind"
+          ],
+          "subjects": [
+            "Children’s"
+          ]
+        },
+        {
+          "isbn": "000-5-36-115965-8",
+          "title": "quia minima dolorem",
+          "description": "Dolores qui ea rerum non omnis sit voluptatibus quia. Natus eaque exercitationem.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Hardcover",
+          "itemId": 24035,
+          "subject": "Self-help",
+          "author": "Cordia Gottlieb",
+          "authors": [
+            "Cordia Gottlieb"
+          ],
+          "subjects": [
+            "Self-help"
+          ]
+        },
+        {
+          "isbn": "000-5-43-376549-8",
+          "title": "dolores non sed",
+          "description": "Ut magnam officia quia sed. Ut dicta inventore eum rerum animi minus. Odio eveniet delectus voluptatibus vitae quasi vel excepturi qui facilis. Saepe veritatis molestiae eius adipisci voluptatem aliquid adipisci. Numquam omnis esse quibusdam quae odit amet.",
+          "edition": "Second edition",
+          "language": "spanish",
+          "bindingType": "Binding",
+          "itemId": 97459,
+          "subject": "Health &amp; Fitness",
+          "author": "Jess Durgan",
+          "authors": [
+            "Jess Durgan"
+          ],
+          "subjects": [
+            "Health &amp; Fitness"
+          ]
+        },
+        {
+          "isbn": "000-5-62-867437-2",
+          "title": "dolore asperiores est",
+          "description": "Suscipit harum debitis quia voluptate animi qui. Ut enim excepturi et velit.",
+          "edition": "Third edition",
+          "language": "spanish",
+          "bindingType": "Softcover",
+          "itemId": 25033,
+          "subject": "Young Adult",
+          "author": "Delilah Ziemann",
+          "authors": [
+            "Delilah Ziemann"
+          ],
+          "subjects": [
+            "Young Adult"
+          ]
+        },
+        {
+          "isbn": "000-5-71-267864-0",
+          "title": "doloremque aut illo",
+          "description": "Minima maiores omnis qui. Ratione facere est cum eligendi velit mollitia explicabo iste.",
+          "edition": "Fourth edition",
+          "language": "english",
+          "bindingType": "Binding",
+          "itemId": 96235,
+          "subject": "Young Adult",
+          "author": "Alessandro Wiza",
+          "authors": [
+            "Alessandro Wiza"
+          ],
+          "subjects": [
+            "Young Adult"
+          ]
+        }
+      ],
+      "pagination": {
+        "total": 100003,
+        "lastPage": 2001,
+        "perPage": 50,
+        "currentPage": 1,
+        "from": 0,
+        "to": 50
+      }
+    },
+    "status": 200
+  }

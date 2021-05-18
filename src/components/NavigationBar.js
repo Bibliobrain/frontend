@@ -41,6 +41,11 @@ export const NavigationBar = () => {
                   <Link to="/register">Register members</Link>
                 </Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link>
+                  <Link to="/loan">Loans</Link>
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

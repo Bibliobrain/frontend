@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.dropdown-120{
+  border: 0.1px solid #0e333e;
+  border-radius: 5px;
+  color: #0e333e;
+  padding:6px;
+  box-shadow: 0px 14px 14px 1px rgba(207,207,207,0.25);
+  background-color: white ;
+  width: 120px;
+}
+
+.hover-opacity{
+  transition:.3s;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
