@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import { AuthProvider } from './contexts/AuthContext'
 
+
 ReactDOM.render(
   <React.StrictMode>
     <AuthProvider>

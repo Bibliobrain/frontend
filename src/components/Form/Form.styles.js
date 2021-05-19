@@ -42,7 +42,7 @@ export const InputContainer = styled.div`
     display: flex;
     flex-direction:column;
     width: 100%;
-    margin:0.1rem;
+    margin:0.2rem;
 `;
 
 export const Input = styled.input`
