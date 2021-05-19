@@ -49,8 +49,6 @@ const Form = () => {
 
         if (errors === true) {
             authContext.loginRequest(formData.ssn, formData.password)
-            // alert("You are successfully signed in...");
-            // window.location.reload()
         } else {
             setErrors(errors)
             setFormSubmitted(true)

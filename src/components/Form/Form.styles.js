@@ -19,6 +19,10 @@ export const FormGroup = styled.div`
 	margin: 20px auto;
 `;
 
+export const FormGroupRow = styled.div`
+    display: flex;
+    width: 100%;
+`;
 
 export const Title = styled.label`
 	margin-bottom: 0.5em;
@@ -34,6 +38,12 @@ export const Label = styled.label`
     display: block;
 `;
 
+export const InputContainer = styled.div`
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin:0.1rem;
+`;
 
 export const Input = styled.input`
 	padding: 0.5em;
@@ -42,7 +52,6 @@ export const Input = styled.input`
 	border: none;
 	border-radius: 3px;
 	width: 100%;
-	/* margin-bottom: 0.5em; */
 `;
 
 export const Button = styled.button`

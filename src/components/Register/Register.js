@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { PanelContainer, Panel } from './Register.styles';
-import { FormGroup, Label, Input, Message, Title, Button } from '../Form/Form.styles';
+import { FormGroup, Label, Input, Message, Title, Button, FormGroupRow, InputContainer } from '../Form/Form.styles';
 import { isEmail, isEmpty, isLength, isContainWhiteSpace } from '../../shared/validator';
 
 const RegisterPanel = () => {
@@ -71,18 +71,22 @@ const RegisterPanel = () => {
             <Panel >
                 <Title >Register a new member</Title>
                 <FormGroup>
-                    <Label htmlFor="firstname">First Name</Label>
-                    <Input id="firstname" type="text" name="firstname" placeholder="Enter your firstname" onChange={handleInputChange} />
-                    {errors.firstname &&
-                        <Message>{errors.firstname}</Message>
-                    }
-                </FormGroup>
-                <FormGroup>
-                    <Label htmlFor="lastname">Last Name</Label>
-                    <Input id="lastname" type="text" name="lastname" placeholder="Enter your lastname" onChange={handleInputChange} />
-                    {errors.lastname &&
-                        <Message>{errors.lastname}</Message>
-                    }
+                    <FormGroupRow>
+                        <InputContainer>
+                            <Label htmlFor="firstname">First Name</Label>
+                            <Input id="firstname" type="text" name="firstname" placeholder="Enter your firstname" onChange={handleInputChange} />
+                            {errors.firstname &&
+                                <Message>{errors.firstname}</Message>
+                            }
+                        </InputContainer>
+                        <InputContainer>
+                            <Label htmlFor="lastname">Last Name</Label>
+                            <Input id="lastname" type="text" name="lastname" placeholder="Enter your lastname" onChange={handleInputChange} />
+                            {errors.lastname &&
+                                <Message>{errors.lastname}</Message>
+                            }
+                        </InputContainer>
+                    </FormGroupRow>
                 </FormGroup>
                 <FormGroup>
                     <Label htmlFor="ssn">SSN</Label>
@@ -108,10 +112,6 @@ const RegisterPanel = () => {
                 <Button type="submit" bsStyle="primary">Sign-In</Button>
 
             </Panel>
-            <Panel>
-                <Title >Issue a new membership card</Title>
-            </Panel>
-
         </PanelContainer>
     )
 
