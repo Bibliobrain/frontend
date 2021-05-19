@@ -46,7 +46,7 @@ export const Catalog = () => {
                     delete params[key]
                 }
             }
-            if (page > 1) { params.pageNumber = page }
+            if (page > 1) { params.page = page }
 
             BookService.filter(params).then(x => {
                 setBooks(x.payload.data)

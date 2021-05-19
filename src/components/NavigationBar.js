@@ -29,14 +29,13 @@ export const NavigationBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-
+            <Nav.Item>
+              <Nav.Link>
+                <Link to="/catalog">Catalog</Link>
+              </Nav.Link>
+            </Nav.Item>
             {authContext.token !== null ?
               <>
-                <Nav.Item>
-                  <Nav.Link>
-                    <Link to="/">Catalog</Link>
-                  </Nav.Link>
-                </Nav.Item>
                 <Nav.Item>
                   <Nav.Link>
                     <Link to="/register">Register members</Link>
@@ -49,7 +48,7 @@ export const NavigationBar = () => {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link>
-                    <Link onClick={()=>{authContext.logout()}}>Logout</Link>
+                    <Link onClick={() => { authContext.logout() }}>Logout</Link>
                   </Nav.Link>
                 </Nav.Item>
               </> :
@@ -57,8 +56,8 @@ export const NavigationBar = () => {
                 <Nav.Link>
                   <Link to="/">Login</Link>
                 </Nav.Link>
-              </Nav.Item>}
-
+              </Nav.Item>
+            }
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import { Login } from './pages/Login'
 import { Catalog } from './pages/Catalog'
 import { Loan } from './pages/Loan'
@@ -20,9 +20,19 @@ const App = () => {
         <Layout>
           <Switch>
             <>
-              <Route exact path="/" component={authContext.token === null ? Login : Catalog}></Route>
-                <Route exact path="/loan" component={Loan}></Route>
-              <Route exact path="/register" component={Register}></Route>
+              <Route exact path="/catalog" component={Catalog}></Route>
+              {authContext.token !== null ?
+                <>
+                  <Redirect to="/catalog" />
+                  <Route exact path="/loan" component={Loan}></Route>
+                  <Route exact path="/register" component={Register}></Route>
+                </>
+                :
+                <>
+                <Redirect to="/" />
+                <Route exact path="/" component={Login}></Route>
+                </>
+              }
             </>
           </Switch>
         </Layout>
