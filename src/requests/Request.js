@@ -12,7 +12,7 @@ const request = async function (options, isHeader = true) {
 
     const client = axios.create({
         baseURL: url,
-        headers: { 'Authorization': "Bearer " + authHeader.token }
+        headers: { 'Authorization': "Bearer " + authHeader?.token }
     });
 
     const onSuccess = function (response) {
