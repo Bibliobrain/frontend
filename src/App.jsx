@@ -16,24 +16,21 @@ import { PageNotFound } from './components/errors/PageNotFound';
 import { Layout } from './components/Layout';
 import { LoadingOverlay } from './components/LoadingOverlay';
 import { Notification } from './components/Notification';
-import { useNotification } from './hooks/stores/useNotifications';
 import { Catalog } from './modules/Catalog';
 import { Staff } from './modules/staff/Staff';
 
 const queryClient = new QueryClient();
 
 const App = () => {
-  const notification = useNotification((state) => state.notification);
   const isFetching = useIsFetching();
   const isMutating = useIsMutating();
-  const isNetworkRequestInProgress = isFetching || isMutating;
+  const isNetworkRequestInProgress = Boolean(isFetching) || Boolean(isMutating);
 
   return (
     <>
       <Notification />
       {isNetworkRequestInProgress && <LoadingOverlay />}
       <Helmet titleTemplate='%s | Georgia Tech Library' />
-      {notification && <div>{notification}</div>}
       <Routes>
         <Route element={<Layout />} path='/'>
           <Route element={<Navigate to='catalog/browse' />} path='/' />

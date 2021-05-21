@@ -1,6 +1,8 @@
 import {
+  Grid as MuiGrid,
   Button as MuiButton,
   TextField as MuiTextField,
+  makeStyles,
 } from '@material-ui/core';
 import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
@@ -10,7 +12,17 @@ import { useLogin } from '../../hooks/mutations/useLogin';
 import { useNotification } from '../../hooks/stores/useNotifications';
 import { useIsAuthenticated } from '../../hooks/useIsAuthenticated';
 
+const useStyles = makeStyles(() => ({
+  gridRoot: {
+    height: '100vh',
+    margin: '0 auto',
+    maxWidth: 384,
+    width: '100%',
+  },
+}));
+
 const Login = () => {
+  const classes = useStyles();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { setNotification } = useNotification();
@@ -49,8 +61,7 @@ const Login = () => {
       password,
     }));
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async () => {
     await mutation.mutate({
       password,
       ssn,
@@ -66,32 +77,55 @@ const Login = () => {
       <Helmet>
         <title>Login</title>
       </Helmet>
-      <form onSubmit={handleSubmit}>
-        <pre>{JSON.stringify(mutation.error)}</pre>
-        <MuiTextField
-          error={Boolean(validationErrors.ssn)}
-          helperText={validationErrors.ssn}
-          label='SSN'
-          onChange={handleSSNChange}
-          size='small'
-          type='text'
-          value={ssn}
-          variant='outlined'
-        />
-        <MuiTextField
-          error={Boolean(validationErrors.password)}
-          helperText={validationErrors.password}
-          label='Password'
-          onChange={handlePasswordChange}
-          size='small'
-          type='password'
-          value={password}
-          variant='outlined'
-        />
-        <MuiButton color='primary' type='submit' variant='contained'>
-          Login
-        </MuiButton>
-      </form>
+      <MuiGrid
+        classes={{
+          root: classes.gridRoot,
+        }}
+        container
+        direction='column'
+        justify='center'
+        spacing={1}
+      >
+        <MuiGrid item>
+          <MuiTextField
+            error={Boolean(validationErrors.ssn)}
+            fullWidth
+            helperText={validationErrors.ssn}
+            label='SSN'
+            onChange={handleSSNChange}
+            size='small'
+            type='text'
+            value={ssn}
+            variant='outlined'
+          />
+        </MuiGrid>
+
+        <MuiGrid item>
+          <MuiTextField
+            error={Boolean(validationErrors.password)}
+            fullWidth
+            helperText={validationErrors.password}
+            label='Password'
+            onChange={handlePasswordChange}
+            size='small'
+            type='password'
+            value={password}
+            variant='outlined'
+          />
+        </MuiGrid>
+
+        <MuiGrid item>
+          <MuiButton
+            color='primary'
+            fullWidth
+            onClick={handleSubmit}
+            type='submit'
+            variant='contained'
+          >
+            Login
+          </MuiButton>
+        </MuiGrid>
+      </MuiGrid>
     </>
   );
 };
