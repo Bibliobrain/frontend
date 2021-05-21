@@ -28,7 +28,7 @@ const Login = () => {
   const { setNotification } = useNotification();
   const mutation = useLogin({
     onSuccess: () => {
-      navigate('/catalog/browse');
+      navigate('/staff/loans/new');
     },
   });
   const isAuthenticated = useIsAuthenticated();

@@ -17,7 +17,7 @@ import { Layout } from './components/Layout';
 import { LoadingOverlay } from './components/LoadingOverlay';
 import { Notification } from './components/Notification';
 import { Catalog } from './modules/Catalog';
-import { Staff } from './modules/staff/Staff';
+import { Staff } from './modules/staff';
 
 const queryClient = new QueryClient();
 
@@ -35,7 +35,13 @@ const App = () => {
         <Route element={<Layout />} path='/'>
           <Route element={<Navigate to='catalog/browse' />} path='/' />
           <Route element={<Catalog />} path='catalog/browse' />
-          <Route element={<Staff />} path='staff/*' />
+          <Route path='staff'>
+            <Route element={<Navigate to='loans/new' />} path='' />
+            <Route element={<Staff.Login />} path='login' />
+            <Route element={<Staff.NewLoan />} path='loans/new' />
+            <Route element={<Staff.ReturnLoan />} path='loans/return' />
+            <Route element={<Staff.NewMember />} path='members/new' />
+          </Route>
           <Route element={<PageNotFound />} path='*' />
         </Route>
       </Routes>
