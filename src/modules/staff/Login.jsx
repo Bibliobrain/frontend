@@ -69,13 +69,13 @@ const Login = () => {
   };
 
   if (isAuthenticated) {
-    return <Navigate to='/catalog/browse' />;
+    return <Navigate to='/staff/loans/new' />;
   }
 
   return (
     <>
       <Helmet>
-        <title>Login</title>
+        <title>Login | Staff</title>
       </Helmet>
       <MuiGrid
         classes={{
