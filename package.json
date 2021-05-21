@@ -86,6 +86,16 @@
       "unicorn/prevent-abbreviations": "off"
     }
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{js,jsx}",
+      "!<rootDir>/src/hooks/mutations/**/*",
+      "!<rootDir>/src/hooks/queries/**/*",
+      "!<rootDir>/src/hooks/stores/**/*",
+      "!<rootDir>/src/utils/**/*",
+      "!<rootDir>/node_modules/"
+    ]
+  },
   "name": "frontend",
   "private": true,
   "scripts": {
