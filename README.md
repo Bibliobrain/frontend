@@ -1,6 +1,6 @@
 # TODO
 
-    * [ ] Display database errors with meaningful messages
+- [ ] Display database errors with meaningful messages
 
 # Environment variables
 
