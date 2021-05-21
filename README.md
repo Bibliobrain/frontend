@@ -1,3 +1,7 @@
+# TODO
+
+    * [ ] Display database errors with meaningful messages
+
 # Environment variables
 
 Specify your backend host address as shown in .env.example
