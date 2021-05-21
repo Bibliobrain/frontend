@@ -55,6 +55,7 @@
       "consistent-return": "off",
       "filenames/match-exported": "off",
       "filenames/match-regex": "off",
+      "fp/no-class": "off",
       "id-length": "off",
       "id-match": "off",
       "import/extensions": "off",

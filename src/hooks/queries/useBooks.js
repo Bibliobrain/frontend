@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useQuery } from 'react-query';
 
-import { handleError } from '../../utils/handleError';
+import { logError } from '../../utils/logError';
 
 const getBooks = async ({ author, language, page, subject }) => {
   let queryParams = '';
@@ -21,7 +21,7 @@ const getBooks = async ({ author, language, page, subject }) => {
     const response = await axios.get(`/books?${queryParams}`);
     return response.data.payload;
   } catch (error) {
-    handleError(error);
+    logError(error);
   }
 };
 

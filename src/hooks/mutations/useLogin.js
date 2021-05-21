@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { useMutation } from 'react-query';
 
-import { handleError } from '../../utils/handleError';
+import { logError } from '../../utils/logError';
+import { transformApiErrorsArrayToMap } from '../../utils/transformApiErrorsArrayToMap';
 import { useAuth } from '../stores/useAuth';
 
 const login = async ({ password, ssn }) => {
@@ -17,7 +18,7 @@ const login = async ({ password, ssn }) => {
     });
     return response.data.payload;
   } catch (error) {
-    return Promise.reject(handleError(error));
+    return Promise.reject(transformApiErrorsArrayToMap(logError(error)));
   }
 };
 
