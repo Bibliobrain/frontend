@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import {
   FormGroup,
@@ -31,7 +31,7 @@ export const Loan = () => {
 
   const createLoan = (e) => {
     e.preventDefault();
-    LoanService.loan(memberId, copyId)
+    LoanService.loan(copyId, memberId)
       .then((x) => {
         console.log(x);
       })
@@ -79,7 +79,7 @@ export const Loan = () => {
                   <Label htmlFor="fname">Copy ID</Label>
                   <Input
                     id="fname"
-                    type="text"
+                    type="number"
                     name="fname"
                     placeholder="Enter Copy ID"
                     onChange={(e) => setCopyId(e.target.value)}
@@ -88,7 +88,7 @@ export const Loan = () => {
               </FormGroupRow>
             </FormGroup>
             <Button type="submit" bsStyle="primary">
-              Sign-In
+              Create loan
             </Button>
           </Panel>
         </PanelContainer>
@@ -113,7 +113,7 @@ export const Loan = () => {
                   <Label htmlFor="fname">Copy ID</Label>
                   <Input
                     id="fname"
-                    type="text"
+                    type="number"
                     name="fname"
                     placeholder="Enter copy ID"
                     onChange={(e) => setCopyId(e.target.value)}
@@ -145,7 +145,7 @@ export const Loan = () => {
               </FormGroupRow>
             </FormGroup>
             <Button type="submit" bsStyle="primary">
-              Sign-In
+              Return
             </Button>
           </Panel>
         </PanelContainer>

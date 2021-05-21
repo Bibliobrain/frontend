@@ -5,7 +5,7 @@ const LoanService = {
     return request({
       url: `/loans`,
       method: "POST",
-      body: {
+      data: {
         copyId,
         memberId,
       },
@@ -14,9 +14,9 @@ const LoanService = {
 
   return: (copyId, memberId, condition, borrowDate) => {
     return request({
-      url: `/loans/return`,
-      method: "POST",
-      body: {
+      url: `/loans`,
+      method: "PATCH",
+      data: {
         copyId,
         memberId,
         condition,
