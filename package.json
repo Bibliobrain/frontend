@@ -89,9 +89,15 @@
   "jest": {
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.{js,jsx}",
+      "!<rootDir>/src/App.jsx",
+      "!<rootDir>/src/components/errors/**/*",
+      "!<rootDir>/src/components/LoadingOverlay.jsx",
+      "!<rootDir>/src/components/Notification.jsx",
       "!<rootDir>/src/hooks/mutations/**/*",
       "!<rootDir>/src/hooks/queries/**/*",
       "!<rootDir>/src/hooks/stores/**/*",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/modules/staff/**/*",
       "!<rootDir>/src/utils/**/*",
       "!<rootDir>/node_modules/"
     ]
