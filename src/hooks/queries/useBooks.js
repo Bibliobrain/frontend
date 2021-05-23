@@ -3,10 +3,13 @@ import { useQuery } from 'react-query';
 
 import { logError } from '../../utils/logError';
 
-const getBooks = async ({ author, language, page, subject }) => {
+const getBooks = async ({ author, isbn, language, page, subject }) => {
   let queryParams = '';
   if (author) {
     queryParams += `lname=${author}&`;
+  }
+  if (isbn) {
+    queryParams += `isbn=${isbn}&`;
   }
   if (language) {
     queryParams += `language=${language}&`;
@@ -25,10 +28,10 @@ const getBooks = async ({ author, language, page, subject }) => {
   }
 };
 
-const useBooks = ({ author, language, page, subject }) => {
+const useBooks = ({ author, isbn, language, page, subject }) => {
   return useQuery(
-    ['books', author, language, page, subject],
-    () => getBooks({ author, language, page, subject }),
+    ['books', author, isbn, language, page, subject],
+    () => getBooks({ author, isbn, language, page, subject }),
     {
       keepPreviousData: true,
     }

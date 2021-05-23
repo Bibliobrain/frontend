@@ -11,6 +11,7 @@ import {
   Typography as MuiTypography,
 } from '@material-ui/core';
 import {
+  Book as BookIcon,
   LocalLibrary as LocalLibraryIcon,
   Search as BrowseCatalogIcon,
   PersonAdd as NewMemberIcon,
@@ -38,13 +39,16 @@ const ROUTE_MAP = [
       {
         href: '/staff/login',
         icon: <LoginIcon />,
-        requiresRole: false,
         title: 'Login',
+      },
+      {
+        href: '/staff/books/availability',
+        icon: <BookIcon />,
+        title: 'Book availability',
       },
       {
         href: '/staff/loans/new',
         icon: <NewLoanIcon />,
-        requiresRole: '',
         title: 'New loan',
       },
       {

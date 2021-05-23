@@ -41,6 +41,10 @@ const App = () => {
             <Route element={<Staff.NewLoan />} path='loans/new' />
             <Route element={<Staff.ReturnLoan />} path='loans/return' />
             <Route element={<Staff.NewMember />} path='members/new' />
+            <Route
+              element={<Staff.BookAvailability />}
+              path='books/availability'
+            />
           </Route>
           <Route element={<PageNotFound />} path='*' />
         </Route>

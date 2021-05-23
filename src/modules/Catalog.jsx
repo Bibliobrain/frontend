@@ -20,7 +20,7 @@ import { useSearchParams } from 'react-router-dom';
 
 import { useBooks } from '../hooks/queries/useBooks';
 
-const ALLOWED_SEARCH_PARAMS = ['author', 'language', 'page', 'subject'];
+const ALLOWED_SEARCH_PARAMS = ['author', 'isbn', 'language', 'page', 'subject'];
 const filterEmpty = (searchParams) =>
   Object.entries(searchParams)
     .filter(
@@ -81,12 +81,13 @@ const Catalog = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const {
     author = '',
+    isbn = '',
     language = '',
     page = 1,
     subject = '',
   } = useMemo(() => Object.fromEntries(searchParams), [searchParams]);
 
-  const query = useBooks({ author, language, page, subject });
+  const query = useBooks({ author, isbn, language, page, subject });
   const books = query?.data?.data || [];
   const pagination = query?.data?.pagination;
 
@@ -114,7 +115,14 @@ const Catalog = () => {
         <MuiTable size='small'>
           <MuiTableHead>
             <MuiTableRow>
-              <MuiTableCell>ISBN</MuiTableCell>
+              <MuiTableCell>
+                <Filter
+                  name='isbn'
+                  onChange={handleFilterChange}
+                  title='ISBN'
+                  value={isbn}
+                />
+              </MuiTableCell>
               <MuiTableCell>Title</MuiTableCell>
               <MuiTableCell>
                 <Filter
