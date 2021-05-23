@@ -89,10 +89,8 @@
   "jest": {
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.{js,jsx}",
-      "!<rootDir>/src/hooks/mutations/**/*",
-      "!<rootDir>/src/hooks/queries/**/*",
       "!<rootDir>/src/hooks/stores/**/*",
-      "!<rootDir>/src/utils/**/*",
+      "!<rootDir>/src/index.js",
       "!<rootDir>/node_modules/"
     ]
   },
