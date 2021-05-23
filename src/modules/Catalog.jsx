@@ -106,6 +106,12 @@ const Catalog = () => {
       })
     );
 
+  const handleRowClick = (isbn) => () => {
+    const { description } = query.data.data.find((book) => book.isbn === isbn);
+    // eslint-disable-next-line no-alert
+    alert(description);
+  };
+
   return (
     <>
       <Helmet>
@@ -154,7 +160,7 @@ const Catalog = () => {
           <MuiTableBody>
             {books.map(
               ({ authors, edition, isbn, language, subjects, title }) => (
-                <MuiTableRow key={isbn}>
+                <MuiTableRow hover key={isbn} onClick={handleRowClick(isbn)}>
                   <MuiTableCell>{isbn}</MuiTableCell>
                   <MuiTableCell>{title}</MuiTableCell>
                   <MuiTableCell>
