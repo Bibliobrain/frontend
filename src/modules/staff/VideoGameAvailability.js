@@ -14,10 +14,10 @@ import { Helmet } from 'react-helmet';
 
 import { withLoginRequired } from '../../components/hoc/withLoginRequired';
 import { withRoleRequired } from '../../components/hoc/withRoleRequired';
-import { useBookAvailability } from '../../hooks/queries/useBookAvailability';
+import { useVideoGameAvailability } from '../../hooks/queries/useVideoGameAvailability';
 
 const DEFAULT_FORM_STATE = {
-  isbn: '',
+  _id: '',
 };
 
 const useStyles = makeStyles(() => ({
@@ -29,23 +29,23 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const BookAvailability = withLoginRequired(
+const VideoGameAvailability = withLoginRequired(
   withRoleRequired('check-out staff', () => {
     const classes = useStyles();
-    const [{ isbn }, setForm] = useState(DEFAULT_FORM_STATE);
-    const query = useBookAvailability(isbn);
+    const [{ _id }, setForm] = useState(DEFAULT_FORM_STATE);
+    const query = useVideoGameAvailability(_id);
 
-    const handleIsbnChange = ({ target: { value } }) => {
+    const handle_IdChange = ({ target: { value } }) => {
       setForm((form) => ({
         ...form,
-        isbn: value,
+        _id: value,
       }));
     };
 
     return (
       <>
         <Helmet>
-          <title>Book availability | Loans</title>
+          <title>Video game availability | Loans</title>
         </Helmet>
         <MuiGrid
           classes={{
@@ -59,11 +59,11 @@ const BookAvailability = withLoginRequired(
           <MuiGrid item>
             <MuiTextField
               fullWidth
-              label='ISBN'
-              onChange={handleIsbnChange}
+              label='Video game ID'
+              onChange={handle_IdChange}
               size='small'
               type='text'
-              value={isbn}
+              value={_id}
               variant='outlined'
             />
           </MuiGrid>
@@ -104,4 +104,4 @@ const BookAvailability = withLoginRequired(
   })
 );
 
-export { BookAvailability };
+export { VideoGameAvailability };

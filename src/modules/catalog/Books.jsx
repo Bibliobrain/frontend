@@ -18,7 +18,7 @@ import { useMemo, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useSearchParams } from 'react-router-dom';
 
-import { useBooks } from '../hooks/queries/useBooks';
+import { useBooks } from '../../hooks/queries/useBooks';
 
 const ALLOWED_SEARCH_PARAMS = ['author', 'isbn', 'language', 'page', 'subject'];
 const filterEmpty = (searchParams) =>
@@ -77,7 +77,7 @@ Filter.propTypes = {
   value: PropTypes.string.isRequired,
 };
 
-const Catalog = () => {
+const Books = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const {
     author = '',
@@ -115,7 +115,7 @@ const Catalog = () => {
   return (
     <>
       <Helmet>
-        <title>Catalog</title>
+        <title>Books | Catalog</title>
       </Helmet>
       <MuiTableContainer>
         <MuiTable size='small'>
@@ -189,4 +189,4 @@ const Catalog = () => {
   );
 };
 
-export { Catalog };
+export { Books };

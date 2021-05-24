@@ -8,7 +8,7 @@ import {
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { MemoryRouter, useLocation } from 'react-router-dom';
 
-import { Catalog } from '../../modules/Catalog';
+import { Catalog } from '../../modules/catalog';
 
 jest.mock('axios', () => ({
   get: async () => ({
@@ -32,7 +32,7 @@ describe('modules - Catalog', () => {
     render(
       <QueryClientProvider client={queryClient}>
         <MemoryRouter>
-          <Catalog />
+          <Catalog.Books />
         </MemoryRouter>
       </QueryClientProvider>
     );
@@ -49,7 +49,7 @@ describe('modules - Catalog', () => {
     render(
       <QueryClientProvider client={queryClient}>
         <MemoryRouter>
-          <Catalog />
+          <Catalog.Books />
         </MemoryRouter>
       </QueryClientProvider>
     );
@@ -75,7 +75,7 @@ describe('modules - Catalog', () => {
       <QueryClientProvider client={queryClient}>
         <MemoryRouter>
           <LocationWatcher />
-          <Catalog />
+          <Catalog.Books />
         </MemoryRouter>
       </QueryClientProvider>
     );
@@ -103,7 +103,7 @@ describe('modules - Catalog', () => {
       <QueryClientProvider client={queryClient}>
         <MemoryRouter initialEntries={['/?page=2']}>
           <LocationWatcher />
-          <Catalog />
+          <Catalog.Books />
         </MemoryRouter>
       </QueryClientProvider>
     );

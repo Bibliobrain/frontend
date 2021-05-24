@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
-import { Layout } from '../components/Layout';
+import { Layout } from '../../components/Layout';
 
-jest.mock('../hooks/useDecodedJWT', () => ({
+jest.mock('../../hooks/useDecodedJWT', () => ({
   useDecodedJWT: () => ({
     ssn: 'AYIOMRZ1623',
   }),
@@ -20,6 +20,6 @@ const Component = (...props) => {
 describe('component - Layout', () => {
   it('should render', async () => {
     render(<Component />);
-    expect(screen.getAllByRole('button')).toHaveLength(5);
+    expect(screen.getAllByRole('button')).toHaveLength(8);
   });
 });

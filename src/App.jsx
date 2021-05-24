@@ -16,7 +16,7 @@ import { PageNotFound } from './components/errors/PageNotFound';
 import { Layout } from './components/Layout';
 import { LoadingOverlay } from './components/LoadingOverlay';
 import { Notification } from './components/Notification';
-import { Catalog } from './modules/Catalog';
+import { Catalog } from './modules/catalog';
 import { Staff } from './modules/staff';
 
 const queryClient = new QueryClient();
@@ -33,8 +33,12 @@ const App = () => {
       <Helmet titleTemplate='%s | Georgia Tech Library' />
       <Routes>
         <Route element={<Layout />} path='/'>
-          <Route element={<Navigate to='catalog/browse' />} path='/' />
-          <Route element={<Catalog />} path='catalog/browse' />
+          <Route element={<Navigate to='catalog/books/browse' />} path='/' />
+          <Route element={<Catalog.Books />} path='catalog/books/browse' />
+          <Route
+            element={<Catalog.VideoGames />}
+            path='catalog/video-games/browse'
+          />
           <Route path='staff'>
             <Route element={<Navigate to='loans/new' />} path='' />
             <Route element={<Staff.Login />} path='login' />
@@ -44,6 +48,10 @@ const App = () => {
             <Route
               element={<Staff.BookAvailability />}
               path='books/availability'
+            />
+            <Route
+              element={<Staff.VideoGameAvailability />}
+              path='video-games/availability'
             />
           </Route>
           <Route element={<PageNotFound />} path='*' />

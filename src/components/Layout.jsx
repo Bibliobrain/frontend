@@ -12,6 +12,7 @@ import {
 } from '@material-ui/core';
 import {
   Book as BookIcon,
+  VideogameAsset as VideoGamesIcon,
   LocalLibrary as LocalLibraryIcon,
   Search as BrowseCatalogIcon,
   PersonAdd as NewMemberIcon,
@@ -27,9 +28,14 @@ const ROUTE_MAP = [
   {
     items: [
       {
-        href: '/catalog/browse',
+        href: '/catalog/books/browse',
         icon: <BrowseCatalogIcon />,
-        title: 'Browse catalog',
+        title: 'Browse books',
+      },
+      {
+        href: '/catalog/video-games/browse',
+        icon: <VideoGamesIcon />,
+        title: 'Browse video games',
       },
     ],
     title: 'Catalog',
@@ -45,6 +51,11 @@ const ROUTE_MAP = [
         href: '/staff/books/availability',
         icon: <BookIcon />,
         title: 'Book availability',
+      },
+      {
+        href: '/staff/video-games/availability',
+        icon: <VideoGamesIcon />,
+        title: 'Video game availability',
       },
       {
         href: '/staff/loans/new',
