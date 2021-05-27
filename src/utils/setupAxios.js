@@ -64,7 +64,6 @@ axios.interceptors.response.use(
     } catch (error) {
       authStore.reset();
       processQueue(undefined, error);
-      window.location.href = '/staff/login?reason=expired';
       return Promise.reject(error);
     } finally {
       isRefreshing = false;

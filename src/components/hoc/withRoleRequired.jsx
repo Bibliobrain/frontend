@@ -7,7 +7,7 @@ const withRoleRequired =
   (...props) => {
     const { role } = useDecodedJWT();
 
-    if (isPermitted(requiredRole, role)) {
+    if (role && isPermitted(requiredRole, role)) {
       return <Component {...props} />;
     }
     return <Forbidden />;

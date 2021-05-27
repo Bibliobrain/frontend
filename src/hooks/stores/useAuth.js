@@ -12,11 +12,10 @@ const useAuth = create((set) => ({
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
     set((state) => ({
-      ...DEFAULT_STATE,
       ...state,
+      ...DEFAULT_STATE,
     }));
   },
-  role: localStorage.getItem('role'),
   set: ({ accessToken, refreshToken }) => {
     localStorage.setItem('accessToken', accessToken);
     localStorage.setItem('refreshToken', refreshToken);
@@ -28,8 +27,8 @@ const useAuth = create((set) => ({
   setAccessToken: (accessToken) => {
     localStorage.setItem('accessToken', accessToken);
     set((state) => ({
-      accessToken,
       ...state,
+      accessToken,
     }));
   },
 }));
